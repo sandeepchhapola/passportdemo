@@ -1,0 +1,30 @@
+{
+  "name": "passportdemo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sandeepchhapola/passportdemo.git"
+  },
+  "keywords": [
+    "authentication",
+    "passport"
+  ],
+  "author": "sandeep chhapola",
+  "license": "gplv3",
+  "bugs": {
+    "url": "https://github.com/sandeepchhapola/passportdemo/issues"
+  },
+  "homepage": "https://github.com/sandeepchhapola/passportdemo",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.2",
+    "express-session": "^1.11.3",
+    "passport": "^0.2.2",
+    "passport-local": "^1.0.0"
+  }
+}
